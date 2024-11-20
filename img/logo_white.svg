@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 7.79px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: Gaegu-Bold, Gaegu;
+        font-size: 145px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <text class="cls-3" transform="translate(125.18 187.63)"><tspan x="0" y="0">CAFE YEOHA</tspan></text>
+        <g>
+          <path class="cls-1" d="M25.89,104.71s-4.61,1.67-4.14,5.92c0,0-5.04,3.29,1.12,16.45,6.16,13.16,15.99,31.62,15.99,31.62,0,0,17.27,26.78,21.32,27.74,0,0,3.57,2.99,13.44-.48,0,0,6.97-3.65,10.69-3.36s7.6-2.11,9.41-6.25c1.81-4.14,5.11-40.88-.34-68.57,0,0-1.66-14.01-8.29-15.95,0,0-1.87-3.18-7.57-2.69,0,0-4.69-3.97-8.58-1.47,0,0-4.52-3.64-10.82-.31,0,0-8.09-5.06-17.41,5.17,0,0-6.32,.4-7.78,5.01,0,0-5.53,.72-7.03,7.2Z"/>
+          <line class="cls-1" x1="42.69" y1="133.86" x2="63.01" y2="171.87"/>
+          <line class="cls-1" x1="56.44" y1="117.72" x2="73.93" y2="166.27"/>
+          <line class="cls-1" x1="77.25" y1="117.72" x2="85.38" y2="164.65"/>
+        </g>
+      </g>
+      <rect class="cls-2" x="0" width="900" height="300"/>
+    </g>
+  </g>
+</svg>
