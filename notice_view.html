@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body class="">
+    <aside class="fixed_menu"></aside>
+    <div class="modal"></div>
+    <div class="popups">
+        <div class="popup_title">이 글을 삭제하시겠습니까?</div>
+        <div class="popup_ctl">
+            <span class="btn_common yes" id="btn_delete_yes">네</span>
+            <span class="btn_common popupno" id="btn_delete_no">아니요</span>
+        </div>
+    </div>
+
+    <div class="header_wrap"></div>
+    <main>
+        <div class="sub_banner sub1">
+            <div class="ban_txt">
+                <h2>공지사항</h2>
+                <p>여하의 새로움을 담아, 일상에 잔잔한 여유를 더해드립니다.</p>
+            </div>
+        </div>
+        <h3 class="commonFrame large_margin">연말 휴무 및 새해 일정 안내</h3>
+        <div class="commonFrame option_bar bb">
+            <section class="view_info">
+                <span>여하카페관리자</span>
+                <span>2024-12-28 18:00:05</span>
+                <span>조회수 32</span>
+            </section>
+            <section class="option_admin button_list">
+                <a href="#"><img src="./img/button_edit.svg" alt="글 수정하기"></a>
+                <a href="#" id="btn_delete"><img src="./img/button_delete.svg" alt="글 삭제하기"></a>
+            </section>
+        </div>
+        <div class="commonFrame view_txt bb smb">
+            여하카페 고객 여러분, 안녕하세요.<br>
+            연말을 맞이하여 여하카페는 한 해 동안 보내주신 관심과 사랑에 깊은 감사의 마음을 전합니다. 저희 카페의 연말 휴무 및 새해 영업 일정을 안내해 드리오니, 방문 시 참고해 주세요.<br>
+            🎄 연말 휴무 안내<br>
+            휴무 기간: 12월 31일(화) ~ 1월 1일(수)<br>
+            연말 휴무 동안에는 따뜻한 휴식을 취하며 새해를 맞이할 준비를 할 예정입니다. 고객 여러분께서도 즐겁고 따뜻한 연말을 보내시길 바랍니다.<br>
+            🌅 새해 영업 시작일<br>
+            영업 재개: 1월 2일(목) 오전 10시<br>
+            새해 첫날부터 여하카페는 더욱 여유롭고 아늑한 분위기로 여러분을 맞이하겠습니다.<br>
+            다가오는 새해에도 여하카페는 언제나 편안한 휴식과 소중한 추억을 함께 나누는 공간이 될 수 있도록 최선을 다하겠습니다. 2025년에도 변함없는 사랑과 성원 부탁드립니다.<br>
+            새해 복 많이 받으세요!<br>
+            감사합니다.
+        </div>
+        <div class="commonFrame buttons lmb">
+            <a href="/notice_list.html" class="btn_common">목록</a>
+        </div>
+    </main>
+    <footer></footer>
+    <script>
+        let btn_delete = document.querySelector("#btn_delete")
+        let modal = document.querySelector(".modal")
+        let popups = document.querySelector(".popups")
+        let btn_delete_yes = document.querySelector("#btn_delete_yes")
+        let btn_delete_no = document.querySelector("#btn_delete_no")
+
+        // 팝업메뉴 나오는 기능
+        btn_delete.addEventListener("click",function(event){
+            event.preventDefault()
+            modal.classList.add("on")
+            popups.classList.add("on")
+        })
+
+        // 삭제 예스 눌렀을 때
+        btn_delete_yes.addEventListener("click",function(){
+            modal.classList.remove("on")
+            popups.classList.remove("on")
+        })   
+        
+        // 삭제 노 눌렀을 때
+        btn_delete_no.addEventListener("click",function(){
+            modal.classList.remove("on")
+            popups.classList.remove("on")
+        })  
+    </script>
+    <script src="./js/include.js"></script>
+</body>
+</html>
